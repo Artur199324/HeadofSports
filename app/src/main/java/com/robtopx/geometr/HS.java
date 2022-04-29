@@ -105,7 +105,7 @@ public class HS extends AppCompatActivity {
                                                 cancel();
                                                 startWe();
                                             } else {
-                                                Log.d("weq","wwww");
+
                                             }
                                         }
 
@@ -140,7 +140,7 @@ public class HS extends AppCompatActivity {
             intent.putExtra("llll", vdrds);
             startActivity(intent);
             finishAffinity();
-            Log.d("weq","App"+vdrds);
+
 
         } else if (bgft != null) {
             String tytew = vdw + ftdcg;
@@ -150,14 +150,14 @@ public class HS extends AppCompatActivity {
             intent.putExtra("llll", tytew);
             startActivity(intent);
             finishAffinity();
-            Log.d("weq","Deep"+tytew);
+
 
         } else {
             if (vfdr.equals("0")) {
                 imageViewProg.setVisibility(View.INVISIBLE);
                 textViewStartHS.setVisibility(View.VISIBLE);
                 textViewCloseHS.setVisibility(View.VISIBLE);
-                Log.d("weq","game");
+
             } else {
 
                 String bfrew = vdw + decodeHS("P21lZGlhX3NvdXJjZT1vcmdhbmlj") +
@@ -173,7 +173,7 @@ public class HS extends AppCompatActivity {
                 intent.putExtra("llll", bfrew);
                 startActivity(intent);
                 finishAffinity();
-                Log.d("weq","Organic"+bfrew);
+
             }
         }
     }
@@ -218,7 +218,7 @@ public class HS extends AppCompatActivity {
             @Override
             public void onConversionDataSuccess(Map<String, Object> map) {
                 bgfre = map.get(decodeHS("YWZfc3RhdHVz")).toString();
-                Log.d("weq", bgfre);
+
                 if (bgfre.equals(decodeHS("Tm9uLW9yZ2FuaWM="))) {
 
 
@@ -425,10 +425,7 @@ public class HS extends AppCompatActivity {
         vdw = gh[1];
         nytr = gh[2];
         zxsa = gh[3];
-        Log.d("weq", vfdr);
-        Log.d("weq", vdw);
-        Log.d("weq", nytr);
-        Log.d("weq", zxsa);
+
     }
 
     private boolean fgdsh() {

@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 if (url.contains(decodeHS("ZXJyb3I9YXBwYWZBczNm")) || url.contains(decodeHS("ZGlzYWJsZWQuaHRtbA=="))) {
 
                     webViewFullAppHS.setVisibility(View.INVISIBLE);
-                    Log.d("weq","bot");
+
                 }
             }
         });
